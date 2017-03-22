@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashraf.dialer.EmailActivity" >
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="E-mail Id"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Your Message"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Send" />
+</RelativeLayout>

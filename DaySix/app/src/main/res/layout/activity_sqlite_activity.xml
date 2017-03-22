@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashraf.daysix.Sqlite_activity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="Id" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="name"
+        android:layout_below="@+id/id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/pno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="36dp"
+        android:hint="phone number"
+        android:layout_above="@+id/dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/ac"
+        android:text="ADD CONTACT"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignBaseline="@+id/da"
+        android:layout_alignBottom="@+id/da"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/uc"
+        android:text="Update Contact"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_alignTop="@+id/dp"
+        android:layout_alignLeft="@+id/da"
+        android:layout_alignStart="@+id/da"
+        android:layout_marginTop="11dp" />
+    <Button
+        android:id="@+id/da"
+        android:text="Dispaly All"
+
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/dp"
+        android:text="Display Particular"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ac"
+        android:layout_alignStart="@+id/ac" />
+    <Button
+        android:id="@+id/del"
+        android:text="Delete Contact"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/ac"
+        android:layout_alignStart="@+id/ac" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/del"
+        android:layout_toRightOf="@+id/del"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashraf.daysix.Storage_activity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQLite"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="351dp"
+        android:layout_alignBaseline="@+id/button"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External-Strorage "
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal-Storage"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="115dp"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shared-Preferences"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="231dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
